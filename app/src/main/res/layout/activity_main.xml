@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/AppTitle"
+        android:textColor="@color/cardBgColor"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+      />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="220dp"
+        app:cardBackgroundColor="@color/cardBgColor"
+        app:cardCornerRadius="9dp"
+        android:elevation="5dp"
+  >
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/txtLabelName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/txEnterName"
+                android:textColor="@color/textColorOnWhite"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:gravity="center"
+
+                />
+
+
+            <EditText
+                android:id="@+id/txtEditName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hintEnterName"
+                android:textColor="@color/textColorOnWhite"
+
+                android:textColorHint="@color/hintColorOnWhite" />
+
+                <Button
+                    android:id="@+id/buttonStart"
+                    android:background="@drawable/rounded_corner"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="@string/txtStart"
+                    android:textColor="@color/cardBgColor"
+                    android:layout_marginTop="8dp"
+                    />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

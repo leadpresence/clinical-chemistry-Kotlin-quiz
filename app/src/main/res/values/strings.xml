@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MedLabQuize</string>
+    <string name="AppTitle">MedQuiz</string>
+    <string name="txtWelcome">Welcome</string>
+    <string name="txEnterName">Please enter your nick name</string>
+    <string name="hintEnterName">Enter name</string>
+    <string name="txtStart">Start</string>
+    <string name="txtSubmit">Submit</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="progressText">0/5</string>
+    <string name="result_text">Result</string>
+    <string name="result_button_text">Reset and Continue </string>
+    <string name="CongratulationsText">Hey Congratulations !! </string>
+    <string name="usernmae">Username </string>
+    <string name="score">You scored 3 of 10 questions. </string>
+</resources>
